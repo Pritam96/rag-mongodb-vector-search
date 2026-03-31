@@ -28,3 +28,22 @@ Before running the notebook, ensure you have the following:
    ```bash
    git clone [https://github.com/Pritam96/rag-mongodb-vector-search.git](https://github.com/Pritam96/rag-mongodb-vector-search.git)
    cd rag-mongodb-vector-search
+   ```
+
+2. **Install the required dependencies:**
+   ```bash
+   pip install openai pymongo langchain-community langchain-text-splitters python-dotenv pypdf
+   ```
+
+3. **Set up your environment variables:**
+   Create a `.env` file in the root directory and add your credentials securely:
+   ```env
+   OPENAI_API_KEY="your_openai_api_key_here"
+   MONGO_URI="your_mongodb_connection_string_here"
+   ```
+
+4. **Run the project:**
+   Launch Jupyter Notebook and open `rag.ipynb` to execute the cells step-by-step:
+   ```bash
+   jupyter notebook
+   ```
